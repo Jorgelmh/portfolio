@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+:root{
+  --main: #5122fc;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #2c2c2c;
+  font-weight: bold!important;
 }
 
 a {
@@ -13,4 +20,30 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav a.nav-link{
+  color: var(--main);
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+#__next{
+  background-color: #2c2c2c;
+}
+
+.wide-container{
+  margin: auto;
+  max-width: 1400px;
+}
+
+@media (min-width: 768px){
+  @media(min-height: 720px){
+    #skills{
+      height: 100vh;
+    }
+    #projects{
+      height: 100vh;
+    } 
+  }
 }

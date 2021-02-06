@@ -1,122 +1,194 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*
+  ========================
+        SITE-HEADER
+  ========================
+*/
+
+/* Site game and links */
+.site_nav{
+  background-color: #2c2c2c;
 }
 
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media(min-height: 720px){
+  .site_header{
+    height: 100vh;
+  }
+
+  .site_info_logo{
+    margin-top: 15vh;
+  }
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.html_color{
+  color: var(--main);
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.site_info_logo{
+  color: white; 
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.site_info{
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
+.site_logo img{
+  width: 100%;
+  height: auto;
+}
+
+.comment_style{
+  color: #d879fd;
+}
+
+.site_info h1{
+  font-size: 3rem;
+}
+
+.site_info p{
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.site_info a{
+  font-size: 2rem;
+  margin: 0 20px;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
+.social{
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
 }
 
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+@media (min-width: 768px){
+
+  .site_info a{
+    text-align: left;
+  }
+  .site_info_logo{
+    margin-top: 30vh;
+  }
+
+  .site_info{
+    text-align: left;
+    float: left;
+    width: 40%;
+  }
+
+  .site_logo{
+    float: left;
+    width: 60%;
+  }
+}
+
+/* Site skill */
+
+.subtitle{
+  text-align: center;
+  color: var(--main);
+  margin-bottom: 5vh;
+  text-transform: capitalize;
+  font-style: italic;
+  padding-top: 10vh;
+}
+
+.single_skill{
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #3b3246;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.164);
+  position: relative;
+}
+
+.single_skill p{
+  font-size: .9rem;
+}
+
+.single_skill h2{
+  text-align: center;
+  color: var(--main);
+  margin: 10px;
+}
+
+.skillLogo{
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+  color: var(--main);
+}
+
+.selector{
+  position: absolute;
+  background-color: #ab04f8;
+  display: none;
+  padding: 3px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* Site projects */
+
+.single_project h3{
+  text-align: center;
+}
+
+.project_video{
+  width: auto!important;
+  height: auto!important;
+}
+
+.project_video video{
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.project_content{
+  margin: auto;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
 }
 
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.project_content:hover .project_info{
+  right: 0;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.project_info{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 40%;
+  background-color: rgba(56, 38, 61, 0.671);
+  padding: 20px;
+  height: 100%;
+  color: white;
+  right: -100%;
+  transition: 1s all ease-in-out;
+  font-size: .7rem;
 }
 
-.logo {
-  height: 1em;
+.live_version{
+  margin: auto;
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ec5fff!important;
+  transition: .5s all ease-in-out;
+  text-decoration: none;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.live_version:hover{
+  color: #8931f5!important;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.sourcecode{
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 991px){
+  .project_info{
+    font-size: 1rem;
   }
 }
