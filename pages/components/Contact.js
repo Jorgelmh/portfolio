@@ -4,7 +4,7 @@ import Styles from '../../styles/Home.module.css'
 const contacts = [
     {
         id: 1,
-        message: "See something that interests you? Don't hesitate to mail me :)",
+        message: "Mail me anytime",
         img:<i aria-hidden className="fas fa-envelope" />,
         url: 'mailto: jorgelmh_01@hotmail.com'
     },
