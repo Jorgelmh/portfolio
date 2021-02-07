@@ -7,7 +7,6 @@ const SingleProject = ({Data}) => {
 
     const [isPlaying, setPlaying] = useState(false)
     const prefix = '/portfolio'
-
     if(Data){
         return(
             <li className="glide__slide">

@@ -8,6 +8,7 @@ import Styles from '../../styles/Home.module.css'
  *  ========================
  */
 const prefix = '/portfolio'
+
 const Header = () => (
     <header className={Styles.site_header}>
         <Navbar className={Styles.site_nav + ' wide-container' + ' navbar-dark'} expand="md">
