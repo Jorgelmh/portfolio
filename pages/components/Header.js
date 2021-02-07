@@ -11,7 +11,7 @@ const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 const Header = () => (
     <header className={Styles.site_header}>
         <Navbar className={Styles.site_nav + ' wide-container' + ' navbar-dark'} expand="md">
-            <Navbar.Brand href="/"><span className={Styles.html_color}>&#60;Jorge </span> Mendez <span className={Styles.html_color}>/&#62;</span></Navbar.Brand>
+            <Navbar.Brand href={prefix + '/'}><span className={Styles.html_color}>&#60;Jorge </span> Mendez <span className={Styles.html_color}>/&#62;</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
