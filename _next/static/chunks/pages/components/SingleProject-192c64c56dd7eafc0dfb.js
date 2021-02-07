@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[11],{kauc:function(n,_,o){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/SingleProject",function(){return o("DDka")}])}},[["kauc",0,1,2]]]);
