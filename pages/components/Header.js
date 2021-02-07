@@ -27,8 +27,8 @@ const Header = () => (
                 <h1>Software Engineering Student</h1>
                 <p className={Styles.comment_style}>//3rd year student at University of Stirling</p>
                 <div className={Styles.social + ' d-flex'}>
-                    <a href="https://github.com/Jorgelmh"><i aria-hidden className="fab fa-github" /></a>
-                    <a href="https://www.linkedin.com/in/jorgelmh"><i aria-hidden className="fab fa-linkedin" /></a>
+                    <a target="_blank" href="https://github.com/Jorgelmh"><i aria-hidden className="fab fa-github" /></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jorgelmh"><i aria-hidden className="fab fa-linkedin" /></a>
                 </div>
             </div>
             <div className={Styles.site_logo}>
