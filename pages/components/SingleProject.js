@@ -11,9 +11,11 @@ const SingleProject = ({Data}) => {
     if(Data){
         return(
             <li className="glide__slide">
-                <div className={Styles.single_project}  onMouseOver={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
+                <div data-aos="fade-up" className={Styles.single_project}  onMouseOver={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
                     <div className={Styles.project_content}>
-                        <ReactPlayer playbackRate={Data.speed} className={Styles.project_video} url={prefix + Data.video} playing={isPlaying} loop={true} volume={0}/>
+                        <a href={Data.link} target="_blank">
+                            <ReactPlayer playbackRate={Data.speed} className={Styles.project_video} url={prefix + Data.video} playing={isPlaying} loop={true} volume={0}/>
+                        </a>
                         <div className={Styles.project_info}>
                             <a href={Data.link} target="_blank" className={Styles.live_version}>{Data.name}</a>
                             <p>{Data.description}</p>

@@ -44,6 +44,21 @@ a {
     }
     #projects{
       height: 100vh;
-    } 
+    }
+
+    #contact{
+      height: 50vh;
+    }
   }
+}
+
+.site-footer{
+  text-align: center;
+  background-color: #5122fc7a;
+  font-size: 1.3rem;
+  padding: 20px 0;
+}
+
+.site-footer p{
+  margin: 0;
 }

@@ -7,19 +7,19 @@ const skillsData = [
         id: 1,
         logo: <i aria-hidden className="fab fa-js-square" />,
         title: 'JavaScript',
-        description: "My main skill defenitively. Libraries: JQuery, ReactJS (Next too), ExpressJS, SocketIO, Jest and Node as a Runtime Environment"
+        description: "My main skill defenitively. Libraries: JQuery, ReactJS (Next too), ExpressJS, SocketIO, Jest and Node as a Runtime Environment."
     },
     {
         id: 2,
         logo: <i aria-hidden className="fab fa-java" />,
         title: 'Java',
-        description: "This was the first programming language I learnt. Skills: multi-threading, inheritance, encapsulation, abstraction, algorithms and modelling"
+        description: "This was my first programming language. Skills: multi-threading, inheritance, encapsulation, abstraction, algorithms and modelling."
     },
     {
         id: 3,
         logo: <i aria-hidden className="fas fa-cloud-upload-alt" />,
         title: 'Cloud computing',
-        description: "I've used cloud computing services such as Heroku and AWS to deploy and analize remote performance of some my projects (See below)."
+        description: "I've used cloud computing services such as Heroku and AWS to deploy and analize remote performance of some my projects."
     },
     {
         id: 4,
@@ -31,13 +31,13 @@ const skillsData = [
         id: 5,
         logo: <i aria-hidden className="fas fa-tablet-alt" />,
         title: 'UX design',
-        description: 'Product analysis, develop personas and scenarios, design interfaces and implement through prototypes.'
+        description: 'Product analysis, development of personas and scenarios, interface design and prototype implementation.'
     },
     {
         id: 6,
         logo: <i aria-hidden className="fab fa-python" />,
         title: 'Python',
-        description: 'Currently learning Python with the aim of using it for Machine learning and Data Analysis purposes using Scikit-learn, Pandas and NumPy'
+        description: 'Currently learning Python with the aim of using it for Machine learning and Data Analysis purposes using Scikit-learn, Pandas and NumPy.'
     },
 ]
 const callback = ({id, logo, title, description}) => (

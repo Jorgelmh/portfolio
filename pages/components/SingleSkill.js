@@ -9,7 +9,7 @@ const SingleSkill = ({logo, title, description}) => {
 
     return(
         <>
-            <div id={title} onMouseOver={mouseover} onMouseOut={mouseout} className={Styles.single_skill + ' col-md'}>
+            <div id={title} data-aos="fade-up" onMouseOver={mouseover} onMouseOut={mouseout} className={Styles.single_skill + ' col-md'}>
                 <div className={Styles.skillLogo}>{logo}</div>
                 <h2>{title}</h2>
                 <p>{description}</p>

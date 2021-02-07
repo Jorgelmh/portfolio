@@ -8,7 +8,7 @@ const projectsData = [
         id: 1,
         name: 'Spunchers.io',
         link: 'https://spunchers.io',
-        description: 'A Multiplayer Online Game developed fully in JavaScript. Includes 3 game modes and 5 characters with different guns',
+        description: 'A Multiplayer Online Game developed fully in JavaScript. Includes 3 game modes and 5 characters with different guns. It is hosted on Heroku and uses AWS Route 53 for DNS networking.',
         source: 'https://github.com/Jorgelmh/JS-TILE-GAME',
         technologies: 'NodeJS, Socket.io, ExpressJS, Webpack, HBS and Jest (for testing purposes)',
         video: '/videos/spunchers.mp4',
@@ -18,7 +18,7 @@ const projectsData = [
         id: 2,
         name: 'DragJoystick UX',
         link:'https://jorgelmh.github.io/dragjoystick/',
-        description: 'Prototype interface for DragJoystick, a package I developed that provides support for games running on mobile devices',
+        description: 'Prototype interface for DragJoystick, a package I developed that provides support for games running on mobile devices.',
         source: 'https://github.com/Jorgelmh/dragjoystick',
         technologies: 'Bootstrap, ReactJS, GlideJS and AOS',
         video: '/videos/dragjoystick.mp4',
@@ -33,7 +33,17 @@ const projectsData = [
         technologies: 'ReactJS and Glide',
         video: '/videos/landpage.mp4',
         speed: .3
-    }
+    },
+    {
+        id: 4,
+        name: 'Shirt-customizer',
+        link: 'https://jorgelmh.github.io/t-shirts-customizer/',
+        description: 'Shirt-customizer website, with cart system and payment amounts included depending on the characteristics of the new shirt.',
+        source: 'https://github.com/Jorgelmh/t-shirts-customizer',
+        technologies: 'CSS, HTML and JS',
+        video: '/videos/t-shirt-customizer.mp4',
+        speed: 1
+    }   
 ]
 
 /* Display my projects */

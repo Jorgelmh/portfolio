@@ -1,4 +1,3 @@
-import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
 import Styles from '../../styles/Home.module.css'
 
@@ -25,7 +24,7 @@ const Header = () => (
         <div className={Styles.site_info_logo + ' container clearfix'}>
             <div className={Styles.site_info}>
                 <p>Hi, I am <span className={Styles.html_color}>Jorge</span></p>
-                <h1>Software Engineer Student</h1>
+                <h1>Software Engineering Student</h1>
                 <p className={Styles.comment_style}>//3rd year student at University of Stirling</p>
                 <div className={Styles.social + ' d-flex'}>
                     <a href="/"><i aria-hidden className="fab fa-github" /></a>
