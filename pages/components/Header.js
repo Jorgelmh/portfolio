@@ -1,14 +1,13 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
 import Styles from '../../styles/Home.module.css'
-import Logo from '../images/coding-image.svg'
 
 /**
  *  ========================
  *          HEADER
  *  ========================
  */
-
+const prefix = '/portfolio'
 const Header = () => (
     <header className={Styles.site_header}>
         <Navbar className={Styles.site_nav + ' wide-container' + ' navbar-dark'} expand="md">
@@ -33,7 +32,7 @@ const Header = () => (
                 </div>
             </div>
             <div className={Styles.site_logo}>
-                <img src={Logo} />
+                <img src={prefix + '/images/coding-image.svg'} />
             </div>
         </div>
     </ header>

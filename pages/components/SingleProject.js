@@ -6,13 +6,14 @@ import { useState } from 'react'
 const SingleProject = ({Data}) => {
 
     const [isPlaying, setPlaying] = useState(false)
+    const prefix = '/portfolio'
 
     if(Data){
         return(
             <li className="glide__slide">
                 <div className={Styles.single_project}  onMouseOver={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
                     <div className={Styles.project_content}>
-                        <ReactPlayer playbackRate={Data.speed} className={Styles.project_video} url={Data.video} playing={isPlaying} loop={true} volume={0}/>
+                        <ReactPlayer playbackRate={Data.speed} className={Styles.project_video} url={prefix + Data.video} playing={isPlaying} loop={true} volume={0}/>
                         <div className={Styles.project_info}>
                             <a href={Data.link} target="_blank" className={Styles.live_version}>{Data.name}</a>
                             <p>{Data.description}</p>
