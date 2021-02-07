@@ -7,7 +7,7 @@ import Styles from '../../styles/Home.module.css'
  *          HEADER
  *  ========================
  */
-const prefix = '/portfolio'
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 const Header = () => (
     <header className={Styles.site_header}>

@@ -6,7 +6,7 @@ import { useState } from 'react'
 const SingleProject = ({Data}) => {
 
     const [isPlaying, setPlaying] = useState(false)
-    const prefix = '/portfolio'
+    const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
     if(Data){
         return(
