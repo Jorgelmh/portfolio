@@ -7,6 +7,7 @@ const SingleProject = ({Data}) => {
 
     const [isPlaying, setPlaying] = useState(false)
     const prefix = '/portfolio'
+
     if(Data){
         return(
             <li className="glide__slide">
@@ -23,9 +24,10 @@ const SingleProject = ({Data}) => {
                 </div>
             </li>
         )
-    }else{
+    }else
         return <p>Error</p>
-    }
+
+    
 }
 
 export default SingleProject
