@@ -1,7 +1,7 @@
 import Styles from '../../styles/Home.module.css'
 import Glide from '@glidejs/glide'
 import SingleProject from './SingleProject'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 const projectsData = [
     {
@@ -49,11 +49,17 @@ const projectsData = [
 /* Display my projects */
 const Projects = () => {
 
+    const [videosLoaded, setVideosLoaded] = useState(0)
+
     useEffect(() => {
-        new Glide('.glide', {
-            startAt: 0,
-            perView: 1,
-        }).mount()
+
+        if(videosLoaded >= projectsData.length){
+            new Glide('.glide', {
+                startAt: 0,
+                perView: 1,
+            }).mount()
+        }
+
     })
 
     return (
@@ -63,7 +69,7 @@ const Projects = () => {
                 <div className="glide__track" data-glide-el="track">
                     <ul className="glide__slides">
                         {
-                            projectsData.map(({id, ...Data}) => <SingleProject key={id} Data={Data} /> )
+                            projectsData.map(({id, ...Data}) => <SingleProject key={id} Data={Data} onloaded={() => setVideosLoaded(videosLoaded+1)} /> )
                         }
                     </ul>
                 </div>

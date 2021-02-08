@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 import { useState } from 'react'
 
 /* Single project display */
-const SingleProject = ({Data}) => {
+const SingleProject = ({Data , onloaded}) => {
 
     const [isPlaying, setPlaying] = useState(false)
     const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
@@ -14,7 +14,7 @@ const SingleProject = ({Data}) => {
                 <div data-aos="fade-up" className={Styles.single_project}  onMouseOver={() => setPlaying(true)} onMouseLeave={() => setPlaying(false)}>
                     <div className={Styles.project_content}>
                         <a href={Data.link} target="_blank">
-                            <ReactPlayer playbackRate={Data.speed} className={Styles.project_video} url={prefix + Data.video} playing={isPlaying} loop={true} volume={0}/>
+                            <ReactPlayer onReady={onloaded}  playbackRate={Data.speed} className={Styles.project_video} url={prefix + Data.video} playing={isPlaying} loop={true} volume={0}/>
                         </a>
                         <div className={Styles.project_info}>
                             <a href={Data.link} target="_blank" className={Styles.live_version}>{Data.name}</a>
