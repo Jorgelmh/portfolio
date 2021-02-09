@@ -50,13 +50,14 @@ const projectsData = [
 const Projects = () => {
 
     const [videosLoaded, setVideosLoaded] = useState(0)
+    const [glide, setGlide] = useState(false)
 
     useEffect(() => {
 
-        if(videosLoaded >= projectsData.length){
+        if(videosLoaded >= projectsData.length && !glide){
+            setGlide(true)
             new Glide('.glide', {
-                startAt: 0,
-                perView: 1,
+                perView: 1
             }).mount()
         }
 
