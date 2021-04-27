@@ -43,7 +43,27 @@ const projectsData = [
         technologies: 'CSS, HTML and JS',
         video: '/videos/t-shirt-customizer.mp4',
         speed: 1
-    }   
+    },
+    {
+        id: 5,
+        name: 'E-commerce Data Exercise',
+        link: 'https://github.com/Jorgelmh/E-commerce-DM',
+        description: 'Data Science exercise for an e-commerce dataset with 10,999 entries. Includes an exploratory data analysis, data processing and the implementation of 2 ML models.',
+        source: 'https://github.com/Jorgelmh/E-commerce-DM',
+        technologies: 'Scikit-learn, Pandas, Seaborn and Numpy',
+        video: '/videos/ecommerce-DM.mp4',
+        speed: 1
+    },
+    {
+        id: 6,
+        name: 'Heart-Attack predictions',
+        link: 'https://github.com/Jorgelmh/Heart-attack-ML',
+        description: 'The aim of this exercise was to implement an accurate model that can predict whether an individual will have a heart attack based on previous records',
+        source: 'https://github.com/Jorgelmh/Heart-attack-ML',
+        technologies: 'Scikit-learn, Pandas, Seaborn and Numpy',
+        video: '/videos/heart-attack-DM.mp4',
+        speed: 1
+    }
 ]
 
 /* Display my projects */
