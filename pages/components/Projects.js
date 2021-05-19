@@ -99,6 +99,7 @@ const Projects = () => {
                     <button className="glide__arrow glide__arrow--right text-dark" data-glide-dir=">"><i aria-hidden className="fas fa-arrow-circle-right" /></button>
                 </div>
             </div>
+            <p className={Styles.comment_style} style={{textAlign: 'center'}}>//Hover to read more details about the project</p>
         </section>
     )
     
