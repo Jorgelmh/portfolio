@@ -7,7 +7,7 @@ const skillsData = [
         id: 1,
         logo: <i aria-hidden className="fab fa-js-square" />,
         title: 'JavaScript',
-        description: "My main skill defenitively. Libraries: JQuery, ReactJS (Next too), ExpressJS, SocketIO, Jest and Node as a Runtime Environment."
+        description: "My main skill definitely. Libraries: JQuery, ReactJS (Next too), ExpressJS, SocketIO, Jest and Node as a Runtime Environment."
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const skillsData = [
         id: 3,
         logo: <i aria-hidden className="fas fa-cloud-upload-alt" />,
         title: 'Cloud computing',
-        description: "I've used cloud computing services such as Heroku and AWS to deploy and analize remote performance of some my projects."
+        description: "I've used cloud computing services such as Heroku and AWS to deploy and analize remote performance of some of my projects."
     },
     {
         id: 4,
