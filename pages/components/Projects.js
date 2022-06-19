@@ -7,7 +7,7 @@ const projectsData = [
     {
         id: 1,
         name: 'Spunchers.io',
-        link: 'https://spunchers.io',
+        link: 'https://spunchers.herokuapp.com/',
         description: 'A Multiplayer Online Game developed fully in JavaScript. Includes 3 game modes and 5 characters with different guns. It is hosted on Heroku and uses AWS Route 53 for DNS networking.',
         source: 'https://github.com/Jorgelmh/JS-TILE-GAME',
         technologies: 'NodeJS, Socket.io, ExpressJS, Webpack, HBS and Jest (for testing purposes)',
