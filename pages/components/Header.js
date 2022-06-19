@@ -24,8 +24,8 @@ const Header = () => (
         <div className={Styles.site_info_logo + ' container clearfix'}>
             <div className={Styles.site_info}>
                 <p>Hi, I am <span className={Styles.html_color}>Jorge</span></p>
-                <h1>Software Engineering Student</h1>
-                <p className={Styles.comment_style}>//Graduate Software Engineer</p>
+                <h1>Software Engineering Graduate</h1>
+                <p className={Styles.comment_style}>//Junior Software Developer at Trubshaw Cumberlege, ltd.</p>
                 <div className={Styles.social + ' d-flex'}>
                     <a target="_blank" href="https://github.com/Jorgelmh"><i aria-hidden className="fab fa-github" /></a>
                     <a target="_blank" href="https://www.linkedin.com/in/jorgelmh"><i aria-hidden className="fab fa-linkedin" /></a>
