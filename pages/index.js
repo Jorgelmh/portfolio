@@ -34,7 +34,7 @@ const Home = () => {
       <Projects />
       <Contact />
       <footer className="site-footer text-light">
-        <p>Developed with ❤ by Jorge &copy; 2021</p>
+        <p>Developed with ❤ by Jorge &copy; 2022</p>
       </footer>
     </>
   )

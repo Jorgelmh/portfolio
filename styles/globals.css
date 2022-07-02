@@ -39,9 +39,6 @@ a {
 
 @media (min-width: 768px){
   @media(min-height: 720px){
-    #skills{
-      height: 100vh;
-    }
     #projects{
       height: 100vh;
     }

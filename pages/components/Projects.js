@@ -16,6 +16,14 @@ const projectsData = [
     },
     {
         id: 2,
+        name: 'PokeAPI UI',
+        link: 'https://jorgelmh.github.io/PokeApiExercise/',
+        description: "A simple UI developed in Angular that displays data (including images) about all the pokemons stored in the API's database",
+        source: 'https://github.com/Jorgelmh/PokeApiExercise',
+        technologies: 'Angular, TypeScript and Bootstrap.'
+    },
+    {
+        id: 3,
         name: 'DragJoystick UX',
         link:'https://jorgelmh.github.io/dragjoystick/',
         description: 'Prototype interface for DragJoystick, a package I developed that provides support for games running on mobile devices.',
@@ -25,7 +33,7 @@ const projectsData = [
         speed: .7
     },
     {
-        id: 3,
+        id: 4,
         name: 'Land Page',
         link: 'https://jorgelmh.github.io/react-landpage/',
         description: 'Landing page developed with React for a PHP project.',
@@ -33,16 +41,6 @@ const projectsData = [
         technologies: 'ReactJS and Glide',
         video: '/videos/landpage.mp4',
         speed: .3
-    },
-    {
-        id: 4,
-        name: 'Shirt-customizer',
-        link: 'https://jorgelmh.github.io/t-shirts-customizer/',
-        description: 'Shirt-customizer website, with cart system and payment amounts included depending on the characteristics of the new shirt.',
-        source: 'https://github.com/Jorgelmh/t-shirts-customizer',
-        technologies: 'CSS, HTML and JS',
-        video: '/videos/t-shirt-customizer.mp4',
-        speed: 1
     },
     {
         id: 5,
