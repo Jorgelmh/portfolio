@@ -20,10 +20,22 @@ const projectsData = [
         link: 'https://jorgelmh.github.io/PokeApiExercise/',
         description: "A simple UI developed in Angular that displays data (including images) about all the pokemons stored in the API's database",
         source: 'https://github.com/Jorgelmh/PokeApiExercise',
-        technologies: 'Angular, TypeScript and Bootstrap.'
+        technologies: 'Angular, TypeScript and Bootstrap.',
+        video: '/videos/pokeapi.mp4',
+        speed: .8
     },
     {
         id: 3,
+        name: 'Cyber Run',
+        link: 'https://github.com/Jorgelmh/Cyber-Run',
+        description: '2D Platformer game fully written using Java, some basic game development principles are followed to achieve things like collisions and sprite animations.',
+        source: 'https://github.com/Jorgelmh/Cyber-Run',
+        technologies: 'Java',
+        video: '/videos/cyber-run.mp4',
+        speed: 1,
+    },
+    {
+        id: 4,
         name: 'DragJoystick UX',
         link:'https://jorgelmh.github.io/dragjoystick/',
         description: 'Prototype interface for DragJoystick, a package I developed that provides support for games running on mobile devices.',
@@ -33,7 +45,7 @@ const projectsData = [
         speed: .7
     },
     {
-        id: 4,
+        id: 5,
         name: 'Land Page',
         link: 'https://jorgelmh.github.io/react-landpage/',
         description: 'Landing page developed with React for a PHP project.',
@@ -43,7 +55,7 @@ const projectsData = [
         speed: .3
     },
     {
-        id: 5,
+        id: 6,
         name: 'E-commerce Data Exercise',
         link: 'https://github.com/Jorgelmh/E-commerce-DM',
         description: 'Data Science exercise for an e-commerce dataset with 10,999 entries. Includes an exploratory data analysis, data processing and the implementation of 2 ML models.',
@@ -53,7 +65,7 @@ const projectsData = [
         speed: 1
     },
     {
-        id: 6,
+        id: 7,
         name: 'Heart-Attack predictions',
         link: 'https://github.com/Jorgelmh/Heart-attack-ML',
         description: 'The aim of this exercise was to implement an accurate model that can predict whether an individual will have a heart attack based on previous records',

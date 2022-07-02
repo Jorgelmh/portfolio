@@ -33,7 +33,7 @@ const Contact = () => (
                 contacts.map(({id, message, img, url}) => <SingleContact key={id}  message={message} img={img} url={url} />)
             }
         </div>
-        <a className={Styles.download_btn + ' btn btn-primary'} href={prefix + '/Resume.docx'}><i aria-hidden className="fa fa-download" /> Download CV</a>
+        <a className={Styles.download_btn + ' btn btn-primary'} href={prefix + '/Resume.pdf'}><i aria-hidden className="fa fa-download" /> Download CV</a>
     </section>
 )
 
