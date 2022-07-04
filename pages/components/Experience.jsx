@@ -61,8 +61,8 @@ const Experience = () => {
                                 </ul>
                             </div>
                             <div className="glide__arrows" data-glide-el="controls">
-                                <button className="glide__arrow glide__arrow--left text-dark" data-glide-dir="<"><i aria-hidden className="fas fa-arrow-circle-left" /></button>
-                                <button className="glide__arrow glide__arrow--right text-dark" data-glide-dir=">"><i aria-hidden className="fas fa-arrow-circle-right" /></button>
+                                <button style={{ top: '40%' }} className="glide__arrow glide__arrow--left text-dark" data-glide-dir="<"><i aria-hidden className="fas fa-arrow-circle-left" /></button>
+                                <button style={{ top: '40%' }} className="glide__arrow glide__arrow--right text-dark" data-glide-dir=">"><i aria-hidden className="fas fa-arrow-circle-right" /></button>
                             </div>
                         </div>
                     </div>
