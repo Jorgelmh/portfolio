@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import {useEffect} from 'react'
 import AOS from 'aos'
+import Experience from './components/Experience'
 
 /** 
  *  =======================
@@ -31,6 +32,7 @@ const Home = () => {
       </Head>
       <Header />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
       <footer className="site-footer text-light">

@@ -101,7 +101,7 @@
   font-size: .9rem;
 }
 
-.single_skill h2{
+.single_skill h2, .experience_title{
   text-align: center;
   color: var(--main);
   margin: 10px;
@@ -207,3 +207,37 @@
   margin: 20px auto;
   width: 200px;
 }
+
+.experience_details{
+  padding: 10px;
+}
+
+.company {
+  color: white;
+}
+
+.job_description {
+  margin: 15px 0;
+  color: white;
+  margin-top: 60px;
+}
+
+.sherpa_image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.experience_image {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+@media(min-width: 720px) {
+  .experience_image {
+    max-width: 50%;
+    margin-top: 80px;
+  }
+}
+
